@@ -119,6 +119,9 @@ img {
     color: var(--attention-color);
 }
 
+.header {
+    border: 1px solid #ECECEC;
+}
 
 /* Герой */
 .hero {
