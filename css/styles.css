@@ -99,11 +99,19 @@ img {
     color: var(--title-color);
 }
 
+.header-nav .studio,
+.header-nav .portfolio-link {
+    color: var(--attention-color);
+    font-family: inherit;
+}
+
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
     color: var(--attention-color);
 }
-
+.nav-link:active {
+    accent-color: var(--attention-color);
+}
 .contacts-list .contact {
     display: inline-block;
     padding-top: 32px;
