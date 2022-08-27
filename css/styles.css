@@ -84,7 +84,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--black-color);
 }
-.logo span {
+.logo, .logo-footer span {
     color: var(--attention-color);
 }
 
@@ -224,6 +224,10 @@ img {
 }
 
 /* Діяльність */
+.activity {
+    padding-top: 0;
+}
+
 .activity-list {
     display: flex;
     justify-content: space-between;
@@ -285,8 +289,14 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--background-color);
 }
+
 
 .address-list .location {
     display: inline-block;
@@ -338,8 +348,7 @@ img {
 }
 
 .filter .filter-btn {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 22px;
     font-family: inherit;
     background-color: var(--btn-color);
     border-radius: 4px;
@@ -352,6 +361,12 @@ img {
     color: var(--title-color);
     cursor: pointer;
 }
+
+.filter .filter-btn:first-child {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
 
 .filter .filter-btn:hover,
 .filter .filter-btn:focus {
